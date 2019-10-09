@@ -19,7 +19,7 @@
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
-  --gray-dark: #343a40;
+  --gray-dark: #5e676e;
   --primary: #007bff;
   --secondary: #6c757d;
   --success: #28a745;
@@ -27,7 +27,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #5e676e;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -662,13 +662,13 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #5e676e !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: #1d2124 !important;
+  background-color: #474d53 !important;
 }
 
 .bg-gradient-primary {
@@ -700,7 +700,7 @@ button.bg-dark:focus {
 }
 
 .bg-gradient-dark {
-  background: #343a40 linear-gradient(180deg, #52585d, #343a40) repeat-x !important;
+  background: #5e676e linear-gradient(180deg, #767e84, #5e676e) repeat-x !important;
 }
 
 .bg-white {
@@ -780,7 +780,7 @@ button.bg-dark:focus {
 }
 
 .border-dark {
-  border-color: #343a40 !important;
+  border-color: #5e676e !important;
 }
 
 .border-white {
@@ -4358,11 +4358,11 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #343a40 !important;
+  color: #5e676e !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
-  color: #121416 !important;
+  color: #3b4045 !important;
 }
 
 .text-body {

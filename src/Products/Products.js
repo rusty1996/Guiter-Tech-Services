@@ -17,7 +17,7 @@ export default class Products extends React.Component {
 			<div id='products-header' className='container-fluid my-0'>
 				<div className='row text-center'>
 					<div className='col'>
-						<div id='products-header-text' className='jumbotron w-50 mx-auto'>
+						<div id='products-header-text' className='jumbotron mx-auto'>
 							<h1 className='display-3 text-light'>Products</h1>
 							<hr></hr>
 							<h4 className='lead text-light'>A line of honest and natural products for your guitar</h4>

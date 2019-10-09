@@ -17,7 +17,7 @@ export default class Homepage extends React.Component {
 				<div id='homepage-header' className='container-fluid my-0'>
 					<div className='row text-center'>
 						<div className='col'>
-							<div id='header-text' className='jumbotron w-50 mx-auto'>
+							<div id='header-text' className='jumbotron mw-100 mx-auto'>
 								<h1 className='display-3'>Guitar Tech Services</h1>
 								<hr></hr>
 								<h4 className=''>If you are a Pro Player, you've come to the right place.</h4>

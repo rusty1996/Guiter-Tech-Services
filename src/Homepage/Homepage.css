@@ -8,8 +8,39 @@
 	overflow: hidden;
 }
 
+p {
+	color: #5e676e;
+}
+
+.text-primary > p {
+	color: #1a1a1a !important;
+}
+
 #header-text {
 	margin-top: 12%;
 	background-color: rgba(247,247,249,.5);
+	width: 100%;
 }
 
+#header-text > h1 {
+	font-size: 2.5rem !important;
+}
+
+@media (min-width : 992px) {
+	#header-text {
+		width: 60% !important;
+	}
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+	#header-text {
+		width: 85%;
+	}
+}
+
+@media (min-width : 576px) {
+
+	#header-text > h1 {
+		font-size: 4.5rem !important;
+	}
+}
