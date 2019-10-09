@@ -1,0 +1,15 @@
+#homepage-header {
+	background-image: url('https://proguitarparts.com/wp-content/uploads/2019/10/black-and-white-box-guitar-grain-63694.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 778px;
+	overflow: hidden;
+}
+
+#header-text {
+	margin-top: 12%;
+	background-color: rgba(247,247,249,.5);
+}
+
