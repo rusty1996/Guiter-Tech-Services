@@ -35,7 +35,7 @@ export default class Homepage extends React.Component {
 							</div>
 						</div>
 						<hr></hr>
-						<div id='homepage-about' className='row'>
+						<div id='homepage-about' className='row jumbotron'>
 							<div className='col-12'>
 								<h2>About the Creator</h2>
 								<p className='lead'>Guitar Tech Supplies is a line of products designed with the goal of being the best products designed for 

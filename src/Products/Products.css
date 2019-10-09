@@ -7,3 +7,14 @@
 	height: 778px;
 	overflow: hidden;
 }
+
+#products-header-text {
+	margin-top: 12%;
+	color: white;
+	background-color: rgba(0,0,0,.7);
+}
+
+.products-img {
+	max-width: 225px;
+	max-height: 225px;
+}
