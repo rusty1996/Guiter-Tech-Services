@@ -23,12 +23,12 @@ export default function App() {
             <Image src='https://i.postimg.cc/nVBqvL6c/GTS-Logo.png' />
           </div>
           <div id='header-nav mb-0'>
-            <Navbar bg='' variant='' expand='lg' className='py-1 mb-0 border-top'>
-              <Navbar.Toggle aria-controls='basic-navbar-nav'/>
-              <Navbar.Collapse id='basic-navbar-nav'>
+            <Navbar bg='dark' variant='dark' expand='lg' className='py-1 mb-0 border-top'>
+              <Navbar.Toggle aria-controls='basic-navbar-nav' className=''/>
+              <Navbar.Collapse id='basic-navbar-nav' className=''>
                 <Nav className='mr-auto text-light py-1' fill >
-                  <Link to='/' className='font-weight-bold text-center text-light'>Home</Link>
-                  <Link to='/products' className='font-weight-bold text-center text-light'>Products</Link>
+                  <Link to='/' className='font-weight-bold text-center nav-link'>Home</Link>
+                  <Link to='/products' className='font-weight-bold text-center nav-link'>Products</Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
